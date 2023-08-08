@@ -6,6 +6,8 @@ import cv2
 
 # Set the path to the Tesseract executable
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+# Images dir
 images_dir = r"./img"
 
 # Function to handle mouse events
